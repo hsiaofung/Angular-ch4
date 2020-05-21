@@ -1,0 +1,7 @@
+<div class="product">
+  <img [src]='product.imageUrl' />
+  <div class="name">{{product.name}}${{product.price}}</div>
+  <button (click)="decrement()" *ngIf="product.quantityInCart > 0">-</button>
+  <span>{{product.quantityInCart}}</span>
+  <button (click)="increment()">+</button>
+</div>

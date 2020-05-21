@@ -1,0 +1,13 @@
+.name {
+  text-align: center;
+}
+
+img {
+  text-align: center;
+}
+
+.product {
+  text-align: center;
+  border: 1px solid black;
+  width: 200px;
+}
